@@ -1,9 +1,9 @@
 # Atividade de PHP - Array com a palavra "UNIASSELVI"
 
-## 📌 Descrição
+Descrição
 Este repositório contém a resolução de uma atividade da disciplina de Linguagens de Programação, do 3º semestre do curso de Análise e Desenvolvimento de Sistemas. O objetivo era criar um script em PHP que manipulasse arrays para exibir cada letra da palavra "UNIASSELVI" com seu respectivo índice.
 
-## 🧩 Enunciado
+Enunciado
 Crie uma página PHP que declare um array, onde cada elemento corresponda a uma letra da palavra **"UNIASSELVI"**. Em seguida, imprima o valor do array, separado por linhas e indicando o índice da posição que está sendo impressa.
 
 A saída esperada é:
@@ -20,7 +20,7 @@ A saída esperada é:
 8: V
 9: I
 
-## 💡 Solução proposta
+Solução proposta
 Foi utilizada a função `str_split()` para transformar a string em um array de caracteres, e um loop `foreach` para percorrer o array e exibir cada elemento com seu índice.
 
 ### Código PHP
